@@ -1,0 +1,37 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+  font-family: "Ubuntu";
+  font-size: 35px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  font-family: "Ubuntu";
+  font-size: 22px;
+}
+.button {
+  border-radius: 12px;
+  background-color: #cc2900;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  border-radius: 12px;
+  background-color: #ff471a;
+  color: white;
+}
+...
