@@ -1,3 +1,6 @@
+body {
+  padding-top: 40px; /* Adjust as needed */
+}
 ul {
   list-style-type: none;
   margin: 0;
