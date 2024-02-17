@@ -1,5 +1,6 @@
 body {
-  padding-top: 40px; /* Adjust as needed */
+  padding-top: 20px; /* Adjust as needed */
+  font-family: 'Ubuntu';font-size: 15px;
 }
 ul {
   list-style-type: none;
