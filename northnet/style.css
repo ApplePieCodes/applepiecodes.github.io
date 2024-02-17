@@ -9,7 +9,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: rgba(44, 62, 80, 0.8); /* Glassy background with transparency */
+  background: linear-gradient(to right, rgba(44, 62, 80, 0.5), rgba(44, 62, 80, 0.9)); /* Glassy gradient background */
   backdrop-filter: blur(10px); /* Adds a blur effect for glassy feel */
   position: fixed;
   top: 0;
