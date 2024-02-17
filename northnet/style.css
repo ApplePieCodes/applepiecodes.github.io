@@ -1,50 +1,48 @@
 body {
-  padding-top: 20px; /* Adjust as needed */
-  margin: 0; /* Remove default body margin */
+  padding-top: 20px;
+  margin: 0;
   font-family: 'Frutiger Aero', sans-serif;
-  font-size: 15px;
-  background: linear-gradient(to bottom, #f5f5f5, #e0e0e0); /* Subtle gradient background */
-  background-attachment: fixed; /* Fixed background to prevent repetition */
+  font-size: 16px;
+  background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  background-attachment: fixed;
 }
 
 ul {
   list-style-type: none;
-  margin: 0; /* Remove margin */
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(to right, rgba(44, 62, 80, 0.5), rgba(44, 62, 80, 0.9)); /* Glassy gradient background */
-  backdrop-filter: blur(10px); /* Adds a blur effect for a glassy feel */
+  background: linear-gradient(to right, #4d79b8, #283593);
+  backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom-left-radius: 10px; /* Round bottom left corner */
-  border-bottom-right-radius: 10px; /* Round bottom right corner */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 li {
   float: left;
-  border-right: 1px solid #ecf0f1; /* Light border color */
-  transition: transform 0.3s ease; /* Smooth transition for scaling */
+  border-right: 1px solid #6272a4;
+  transition: transform 0.3s ease;
 }
 
 li a {
   display: block;
-  color: #ecf0f1; /* Light text color */
+  color: #ecf0f1;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: none;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add subtle 3D text effect */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* Change the link color to a slightly darker shade on hover */
 li:hover {
-  transform: scale(1.05); /* Scale up by 5% on hover */
+  transform: scale(1.05);
 }
 
 li a:hover {
-  background-color: #34495e; /* Darker hover color */
-  color: #fff; /* Change text color on hover */
+  background-color: #34495e;
 }
 
 .active {
