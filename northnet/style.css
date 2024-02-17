@@ -1,13 +1,16 @@
 body {
   padding-top: 20px; /* Adjust as needed */
-  font-family: 'Ubuntu';font-size: 15px;
+  font-family: 'Frutiger Aero', sans-serif;
+  font-size: 15px;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #122073;
+  background: rgba(44, 62, 80, 0.8); /* Glassy background with transparency */
+  backdrop-filter: blur(10px); /* Adds a blur effect for glassy feel */
   position: fixed;
   top: 0;
   width: 100%;
@@ -15,24 +18,26 @@ ul {
 
 li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: 1px solid #ecf0f1; /* Light border color */
 }
 
 li a {
   display: block;
-  color: white;
+  color: #ecf0f1; /* Light text color */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to a slightly darker shade on hover */
 li a:hover {
-  background-color: #bd4e1d;
+  background-color: #34495e; /* Darker hover color */
 }
+
 .active {
   background-color: #04aa6d;
 }
+
 li:last-child {
   border-right: none;
 }
