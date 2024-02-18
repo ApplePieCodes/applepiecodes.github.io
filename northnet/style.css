@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, rgba(10, 150, 255, 0.4), rgba(0, 0, 255, 0.4));
+  background-image: linear-gradient(to right, rgba(10, 150, 255, 0.3), rgba(0, 0, 255, 0.3));
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
@@ -43,7 +43,7 @@ li:hover {
 }
 
 li a:hover {
-  background-color: #34495e;
+  background-color: rgba(19, 97, 145, 0.5);
 }
 
 .active {
