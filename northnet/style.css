@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #f5f5f5, #e0e0e0) no-repeat; /* Your gradient colors */
+  background-color: #363636; /* Your gradient colors */
   background-size: 100% 100%; /* Ensure the gradient covers the entire background */
   margin: 0;
   padding: 0;
