@@ -3,7 +3,7 @@ body {
   font-size: 16px;
 }
 
-.navbar {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,13 +18,13 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar li {
+li {
   float: left;
   border-right: 1px solid #6272a4;
   transition: transform 0.3s ease;
 }
 
-.navbar li a {
+li a {
   display: block;
   color: #ecf0f1;
   text-align: center;
@@ -33,19 +33,19 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-.navbar li:hover {
+li:hover {
   transform: scale(1.05);
 }
 
-.navbar li a:hover {
+li a:hover {
   background-color: rgba(19, 97, 145, 0.5);
 }
 
-.navbar .active {
+.active {
   background-color: #04aa6d;
 }
 
-.navbar li:last-child {
+li:last-child {
   border-right: none;
 }
 
