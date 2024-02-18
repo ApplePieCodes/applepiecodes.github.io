@@ -52,3 +52,7 @@ li a:hover {
 li:last-child {
   border-right: none;
 }
+
+.content {
+  margin-top: 80px; /* Adjust this value based on your navbar height */
+}
