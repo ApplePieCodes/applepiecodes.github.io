@@ -1,9 +1,4 @@
 body {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  padding-top: 28px; /* Add the unit (e.g., pixels) */
   font-family: 'Frutiger Aero', sans-serif;
   font-size: 16px;
 }
@@ -55,19 +50,18 @@ li:last-child {
 }
 
 .content {
-  margin-top: 28px; /* Adjust this value based on your navbar height */
+  margin-top: 28px;
 }
 
 #hiddenButtons {
   position: fixed;
-  left: -100px; /* Adjust this value based on your button width */
+  left: -100px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
 }
 
-/* Style for each button */
 #hiddenButtons button {
   background-color: rgba(19, 97, 145, 0.8);
   color: #ecf0f1;
@@ -79,7 +73,6 @@ li:last-child {
   transition: transform 0.3s ease;
 }
 
-/* Animation for the buttons to spin in */
 @keyframes spinIn {
   0% {
     transform: translateY(-50%) rotateY(90deg);
@@ -89,7 +82,6 @@ li:last-child {
   }
 }
 
-/* Apply the animation after 0.5 seconds */
 #hiddenButtons.show {
   animation: spinIn 0.5s forwards;
 }
