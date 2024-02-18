@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Frutiger Aero', sans-serif;
   font-size: 16px;
-  background: url('applepiecodes.github.io/northnet/background.jpg'); /* Replace with your background image URL */
+  background: url("applepiecodes.github.io/northnet/background.jpg"); /* Replace with your background image URL */
   background-size: cover;
 }
 
