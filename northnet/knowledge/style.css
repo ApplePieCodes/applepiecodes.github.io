@@ -54,3 +54,26 @@ li:last-child {
 .content {
   margin-top: 28px;
 }
+
+.island {
+  background-color: #f39c12;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.island-numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.island-numbers span {
+  font-size: 18px;
+  font-weight: bold;
+}
