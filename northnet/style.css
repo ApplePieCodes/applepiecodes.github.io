@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: linear-gradient(to right, #4d79b8, #283593);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(172, 255, 237, 0.1));
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
