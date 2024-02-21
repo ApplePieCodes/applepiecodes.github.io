@@ -1,8 +1,8 @@
 #menu {
   background-image: linear-gradient(
     to right,
-    rgba(0, 150, 255, 0.6),
-    rgba(0, 0, 255, 0.6)
+    rgba(22, 105, 122, 0.7),
+    rgba(58, 23, 114, 0.7)
   );
   height: 50px;
   padding-left: 18px;
@@ -31,18 +31,18 @@
   line-height: 50px;
   padding: 0 18px;
   text-decoration: none;
-  color: #ffffff;
+  color: #f46036;
   font-size: 28px;
   text-transform: capitalize;
   font-family: "Ubuntu";
 }
 
 #menu li:hover a {
-  color: #ffffff;
+  color: #f46036;
   background: linear-gradient(
     to right,
-    rgba(0, 150, 255, 1),
-    rgba(0, 0, 255, 1)
+    rgba(22, 105, 122, 0.7),
+    rgba(58, 23, 114, 0.7)
   );
 }
 
@@ -182,4 +182,13 @@
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+.bg {
+  background: linear-gradient(
+    270deg,
+    rgba(17, 42, 13, 1) 5%,
+    rgba(5, 140, 66, 1) 84%
+  );
+  background-blend-mode: normal;
 }
