@@ -1,4 +1,6 @@
-// Follows Cursor for moving images
+// basic idea is as follows:
+// measure the mouse's distance from center of the image and apply a transform rotateX and rotateY of between -5deg and 5deg accordingly
+
 const image = document.querySelector(".tilt");
 
 image.addEventListener("mousemove", (event) => {
