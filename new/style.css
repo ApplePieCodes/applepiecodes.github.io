@@ -21,12 +21,15 @@ h1 {
 	list-style: none
 }
 #menu ul {
-	width: 100%;
-	text-align: left;
+    display: flex; /* Aligns children inline */
+    width:  100%; /* Ensures the ul takes the full width */
+    padding:  0; /* Removes default padding */
+    margin:  0; /* Removes default margin */
 }
+
 #menu li {
-	display: inline-block;
-	position: relative;
+    display: inline-block; /* Allows items to sit next to each other */
+    list-style: none; /* Removes bullet points */
 }
 #menu a {
 	display: block;

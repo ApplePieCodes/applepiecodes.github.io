@@ -22,7 +22,6 @@ h1 {
 }
 #menu ul {
     display: flex; /* Aligns children inline */
-    justify-content: space-between; /* Spaces out the items */
     width:  100%; /* Ensures the ul takes the full width */
     padding:  0; /* Removes default padding */
     margin:  0; /* Removes default margin */
