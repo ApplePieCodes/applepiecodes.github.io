@@ -36,7 +36,10 @@ h1 {
 	color: #A9A9A9;
 	font-size: 16px;
 }
-
+#menu a.dropdown-arrow:after {
+	content: "\23F7";
+	margin-left: 5px;
+}
 #menu li a:hover {
 	color: #D3D3D3;
 	background: #9370DB;
@@ -63,7 +66,31 @@ h1 {
 	content: "\2261"; 
 	margin-left: 20px;
 }
-
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #4B0082;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #A9A9A9;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #000080;
+	color: #9370DB;
+}
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#4B0082;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
