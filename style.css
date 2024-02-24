@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right, #000000, #434343);
+    font-family: 'Ubuntu', sans-serif;
+    color: #9C27B0; /* Dark purple color */
+}
+
+h1 {
+    font-weight: bold;
+}
