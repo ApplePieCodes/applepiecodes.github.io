@@ -1,4 +1,4 @@
 CurrentGameVersion
 1.0.0
 NumberOfSongs
-2
+3
