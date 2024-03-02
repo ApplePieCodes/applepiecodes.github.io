@@ -2,3 +2,5 @@ Triangles
 triangles.wav
 ALL MY FELLAS
 allmyfellas.wav
+Bling-Bang-Bang-Born
+blingbangbangborn.wav
