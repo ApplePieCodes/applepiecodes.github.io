@@ -1,4 +1,4 @@
 CurrentGameVersion
 1.0.0
-NumberOfSongs
-3
+NumberOfAlbums
+1
