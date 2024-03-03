@@ -1,15 +1,25 @@
 zero_one
+zero_one.png
 The Living Tombstone
-2020
 10
 Songs
 What I Want
+whatiwant.wav
 Drunk
+drunk.wav
 Can't Wait
+cantwair.wav
 Lazy
+lazy.wav
 Sunburn
+sunburn.wav
 Long Time Friends
+longtimefriends.wav
 Zero One
+zeroone.wav
 Animal
+animal.wav
 Fly Home
+flyhome.wav
 Chosen
+chosen.wav
