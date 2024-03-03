@@ -1,25 +1,10 @@
-zero_one
-zero_one.jpg
-The Living Tombstone
-10
-Songs
-What I Want
 whatiwant.wav
-Drunk
 drunk.wav
-Can't Wait
-cantwair.wav
-Lazy
+cantwait.wav
 lazy.wav
-Sunburn
 sunburn.wav
-Long Time Friends
 longtimefriends.wav
-Zero One
-zeroone.wav
-Animal
+zero_one.wav
 animal.wav
-Fly Home
 flyhome.wav
-Chosen
 chosen.wav
