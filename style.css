@@ -28,3 +28,23 @@
     font-size: 14px;
     color: #666;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #fff;
+    }
+
+    .video {
+        border-color: #444;
+        background-color: #333;
+    }
+
+    .video h2 {
+        color: #fff;
+    }
+
+    .video p {
+        color: #bbb;
+    }
+}
