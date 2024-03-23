@@ -20,10 +20,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         const thumbnailElement = document.createElement('img');
                         thumbnailElement.src = video.thumbnail;
                         thumbnailElement.alt = video.title + ' Thumbnail';
+                        thumbnailElement.addEventListener('click', function() {
+                            window.location.href = video.url;
+                        });
                         videoElement.appendChild(thumbnailElement);
 
                         const titleElement = document.createElement('h2');
                         titleElement.textContent = video.title;
+                        titleElement.addEventListener('click', function() {
+                            window.location.href = video.url;
+                        });
                         videoElement.appendChild(titleElement);
 
                         const authorElement = document.createElement('p');
