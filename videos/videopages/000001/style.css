@@ -22,13 +22,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f9f9f9;
 }
 
 .video-container {
-    width: 70%;
-    max-width: 800px;
+    width: 90%; /* Adjusted for smaller screens */
+    max-width: 90%; /* Adjusted for smaller screens */
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -52,4 +52,16 @@ video {
 .video-info p {
     margin: 10px 0;
     color: #606060;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 100%;
+    }
 }
