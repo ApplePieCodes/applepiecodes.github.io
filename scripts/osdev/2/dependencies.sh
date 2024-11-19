@@ -6,25 +6,25 @@ set -u  # Treat unset variables as errors.
 if [[ "$OSTYPE" == "darwin"* ]]; then
     OS="macOS"
     PKG_MGR="brew"
+    GRUB="grub2"
 elif command -v apt-get &> /dev/null; then
     OS="Linux (Debian-based)"
     PKG_MGR="apt-get"
-    UPDATE_CMD="sudo apt-get update -y"
     INSTALL_CMD="sudo apt-get install -y"
+    GRUB="grub2"
 elif command -v pacman &> /dev/null; then
     OS="Linux (Arch-based)"
     PKG_MGR="pacman"
-    UPDATE_CMD="sudo pacman -Syu --noconfirm"
     INSTALL_CMD="sudo pacman -S --noconfirm --needed"
+    GRUB="grub"
 elif command -v zypper &> /dev/null; then
     OS="Linux (SUSE-based)"
     PKG_MGR="zypper"
-    UPDATE_CMD="sudo zypper refresh"
     INSTALL_CMD="sudo zypper install -y"
+    GRUB="grub2"
 else
     echo "Unsupported system. Please install the following dependencies manually:"
-    echo "- nasm, xorriso, grub2, gcc, and make (for Linux)"
-    echo "- Homebrew and x86_64-elf-gcc (for macOS)"
+    echo "- nasm, xorriso, grub2, gcc, make, Homebrew and x86_64-elf-gcc"
     exit 1
 fi
 
@@ -42,15 +42,14 @@ if [[ $PKG_MGR == "brew" ]]; then
     fi
 
     echo "Installing dependencies via Homebrew..."
-    brew install nasm xorriso grub x86_64-elf-gcc
+    brew install nasm xorriso grub x86_64-elf-gcc make
     echo "Dependencies installed successfully on macOS."
     exit 0
 fi
 
 # Linux: Update package lists and install dependencies
-echo "Updating package lists and installing dependencies..."
-$UPDATE_CMD
-$INSTALL_CMD nasm xorriso grub2 curl
+echo "installing dependencies..."
+$INSTALL_CMD nasm xorriso $GRUB curl
 
 # Additional dependencies for specific distros
 if [[ $PKG_MGR == "zypper" ]]; then
