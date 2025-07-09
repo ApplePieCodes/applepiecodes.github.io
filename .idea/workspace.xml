@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5c77d85-7909-4edd-b775-8647948c3ae9" name="Changes" comment="Update">
+    <list default="true" id="e5c77d85-7909-4edd-b775-8647948c3ae9" name="Changes" comment="Added Ads Unintrusively">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -83,7 +83,8 @@
       <workItem from="1748883321926" duration="8000" />
       <workItem from="1751471781016" duration="162000" />
       <workItem from="1751763091586" duration="31000" />
-      <workItem from="1751763303512" duration="30000" />
+      <workItem from="1751763303512" duration="1054000" />
+      <workItem from="1752075133324" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -109,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751763105321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Ads Unintrusively">
+      <option name="closed" value="true" />
+      <created>1751763349199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751763349199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Added Ads Unintrusively" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Ads Unintrusively" />
   </component>
 </project>
